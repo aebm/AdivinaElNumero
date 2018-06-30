@@ -1,0 +1,52 @@
+.gamecontainer{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background-color: lightgrey;
+}
+.gametitle{
+	font-family: 'Galada', sans-serif;
+	color: black;
+}
+.accountant{
+	font-family: 'Galada', sans-serif;
+	font-size: 25px;
+	color: red;
+	position: absolute;
+	top: -15px;
+	right: -15px;
+}
+.whatodo{
+	font-family: 'Galada', sans-serif;
+	font-size: 15px;
+	color: black;
+}
+.intnumber{
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	border-color: red;
+}
+.buttontry{
+	font-family: 'Galada', sans-serif;
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	border-color: red;
+	margin-top: 10px;
+	color: red;
+}
+.otherinst{
+	width: 50%;
+	height: 40px;
+	padding: 5px;
+	border: blue;
+	text-align: center;
+	border-color: blue;
+}
+.check{
+	color: blue;
+	font-family: 'Galada', sans-serif;
+	font-size: 25px;
+}
