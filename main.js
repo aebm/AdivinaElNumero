@@ -8,7 +8,7 @@ var guessNum = getRandomNumber();
 var accountant = 0;
 
 function ifNumMinor(){
-	var answerNum = document.getElementById('answerNum').innerHTML;
+	var answerNum = document.getElementById('answerNum').value;
 	if (answerNum<guessNum){
 		alert('Demasiado bajo');
 		accountant++;
@@ -19,6 +19,7 @@ function ifNumMinor(){
 		alert('¡ACERTASTE, CAMPEONA!');
 	} else {
 		alert('ERROR, ESTE ORDENADOR SE AUTODSETRUIRÁ');
+	}
 	document.getElementById('accountant').innerHTML = accountant;
 }
 
