@@ -17,7 +17,8 @@ function ifNumMinor(){
 		accountant++;
 	} else if (answerNum===guessNum){
 		alert('¡ACERTASTE, CAMPEONA!');
-	} 
+	} else {
+		alert('ERROR, ESTE ORDENADOR SE AUTODSETRUIRÁ');
 	document.getElementById('accountant').innerHTML = accountant;
 }
 
